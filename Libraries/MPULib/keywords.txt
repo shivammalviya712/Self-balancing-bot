@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For MPUlib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+MPULib	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initMPU	KEYWORD2
+readMPUData	KEYWORD2
+iterate	KEYWORD2
+getTheta	KEYWORD2
+getThetaDot	KEYWORD2
+printStates	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+isMPUReady KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

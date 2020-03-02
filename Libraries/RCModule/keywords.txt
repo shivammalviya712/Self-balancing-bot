@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For MPUlib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+RCModule	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+iterate	KEYWORD2
+readXbee	KEYWORD2
+controlMotors KEYWORD2
+controlMagnet	KEYWORD2
+getJoystickData	KEYWORD2
+motorInit	KEYWORD2
+MagInit	KEYWORD2
+MagPick	KEYWORD2
+MagDrop	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
