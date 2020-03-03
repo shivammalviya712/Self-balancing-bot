@@ -8,9 +8,10 @@ The objective is to make a remote control robot capable of balancing itself usin
 - DC Motors with encoders
 - Xbee Module
 - Motor Driver
+- 12V Lipo Battery
 - Chassis
 - Breadboard
-- 12V Lipo Battery
+- Wheels
 
 # 3D Model of Chassis
 ![](images/model.JPG)
