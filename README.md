@@ -34,7 +34,7 @@ The objective is to make a remote control robot capable of balancing itself usin
 - Code for timer interrupts is written in this file.
 
 ## RCModule
-- This files class of Xbee is defined.
+- In this files, class of Xbee is defined.
 
 # Control Architecture
 
@@ -45,5 +45,6 @@ The objective is to make a remote control robot capable of balancing itself usin
   - MPULib
   - I2C
   - I2Cdev
+  
 - Octave
   - "control" package
