@@ -1,4 +1,4 @@
-# Self Balancing Bot
+# Objective
 
 The objective is to make a remote control robot capable of balancing itself using Linear Quadratic Regulator Control.
 
