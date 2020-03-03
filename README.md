@@ -15,7 +15,14 @@ The objective is to make a remote control robot capable of balancing itself usin
 
 # 3D Model of Chassis
 - 3D Modelling of robot is done in solidworks, and those files are available in 3D Model folder.
-![](images/model.JPG)
+![](images/BalanceBotModel.JPG)
+
+# Mathematical Model
+- Derivations are given in the folder Mathematical Model.
+![](images/Model.png)
+
+- State-Space Equation
+![](images/StateSpaceEquation.png)
 
 # Code Structure
 
