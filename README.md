@@ -13,7 +13,7 @@ The objective is to make a remote control robot capable of balancing itself usin
 - 12V Lipo Battery
 
 # 3D Model of Chassis
-
+![](images/model.JPG)
 
 # Code Structure
 
