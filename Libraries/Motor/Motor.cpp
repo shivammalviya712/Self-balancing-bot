@@ -51,7 +51,6 @@ void Motor::generate(int analogVal) {
         if(analogVal < -255) {analogVal = -255; }
         reverse(-analogVal);
     }
-    //Serial.println(analogVal);
 }
 
 void leftEncoderInterruptA() {
@@ -78,23 +77,19 @@ void attachMotorInterrupts() {
   attachInterrupt(
     digitalPinToInterrupt(leftMotor.encoder.A), 
     leftEncoderInterruptA,
-    CHANGE
+    RISING
     );
 
   attachInterrupt(
     digitalPinToInterrupt(rightMotor.encoder.A), 
     rightEncoderInterruptA,
-    CHANGE
+    RISING
     );   
 }
 
-void driveMotors (double voltage) {
-    int analogVal = (int) ((double)voltage*255.0/12.0 + 0.5);
-    int offset = OFFSET_FACTOR*(rightMotor.encoder.rotation - leftMotor.encoder.rotation); 
-    // Serial.print("Left Voltage : ");
-    leftMotor.generate((int) (analogVal + offset));
-    //Serial.print("Right Voltage : ");
-    rightMotor.generate((int) (analogVal - offset));
-    //Serial.print("Difference of rotation : ");
-    //Serial.println(offset/5);
-}
+//void driveMotors (double voltage) {
+//    int analogVal = (int) ((double)voltage*255.0/12.0 + 0.5);
+//    int offset = OFFSET_FACTOR*(rightMotor.encoder.rotation - leftMotor.encoder.rotation); 
+//    leftMotor.generate((int) (analogVal + offset));
+//    rightMotor.generate((int) (analogVal - offset));
+//}

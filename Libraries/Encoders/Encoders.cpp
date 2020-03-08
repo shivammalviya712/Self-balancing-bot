@@ -23,7 +23,7 @@ void Encoders::init() {
 }
 
 double Encoders::getPhi() {
-	return (2.0 * M_PI * rotation)/(double) RESOLUTION;
+	return (2.0 * M_PI * rotation)/(double) (280 * ENCODING);
 }
 
 long Encoders::getRotation(){

@@ -9,7 +9,7 @@
 #include "digitalWriteFast.h"
 
 #define RADIUS 0.03
-#define RESOLUTION 540
+#define ENCODING 1  
 
 class Encoders {
 
