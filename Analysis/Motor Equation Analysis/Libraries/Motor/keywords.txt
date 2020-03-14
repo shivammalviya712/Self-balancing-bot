@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For Motor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Motor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+stop	KEYWORD2
+forward	KEYWORD2
+reverse	KEYWORD2
+generate	KEYWORD2
+rightEncoderInterruptA	KEYWORD2
+rightEncoderInterruptB	KEYWORD2
+leftEncoderInterruptA	KEYWORD2
+leftEncoderInterruptB	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
